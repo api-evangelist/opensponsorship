@@ -1,7 +1,28 @@
 aid: opensponsorship
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opensponsorship.png
 name: OpenSponsorship
-description: OpenSponsorship is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  OpenSponsorship is a two-sided sports sponsorship and influencer marketing marketplace
+  that connects brands with a network of more than 25,000 professional athletes, teams,
+  sports creators, and health and wellness influencers across 150+ sports. Brands pay a
+  monthly subscription to search the roster, post campaigns, submit proposals, manage
+  contracts, and track ROI, while athletes and their agents join for free with
+  OpenSponsorship taking a commission on secured deals. The platform layers AI-based
+  matching, social-content search, campaign management, and reporting on top of a managed
+  service that handles matching, outreach, contracts, and reporting. OpenSponsorship
+  exposes no public developer API at this time; this profile captures its public identity
+  and web properties for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/opensponsorship/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sponsorship
+- Sports
+- Influencer Marketing
+- Marketplace
+- Athletes
+- Advertising
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,24 @@ maintainers:
 common:
 - type: Website
   url: https://opensponsorship.com
+- type: Pricing
+  url: https://opensponsorship.com/pricing/brand
+- type: SignUp
+  url: https://opensponsorship.com/registration
+- type: Login
+  url: https://opensponsorship.com/login
+- type: Blog
+  url: https://opensponsorship.com/blog
+- type: Support
+  url: https://opensponsorship.com/help
+- type: TermsOfService
+  url: https://opensponsorship.com/terms
+- type: PrivacyPolicy
+  url: https://opensponsorship.com/privacy
+- type: DomainSecurity
+  url: security/opensponsorship-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
